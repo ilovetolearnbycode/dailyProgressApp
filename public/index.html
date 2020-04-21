@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>Daily Progress ....</title>
+</head>
+<body>
+	<div class="fullPage container">
+		<h1>Add</h1>
+		<form class="container">
+			<div class="row">
+				<label for="add">Add name of the subject</label>
+				<input type="text" name="add" class="u-full-width" placeholder="name of the subject...">
+			</div>
+
+			<div class="row">
+				<label for="url">Add link for the playlist</label>
+				<input type="url" id="url" name="url" class="u-full-width" placeholder="link for the playlist of video series...">
+			</div>
+
+			<div class="row">
+				<label for="number">Total number of lectures...</label>
+				<input type="number" id="number" name="number" class="u-full-width" placeholder="total number of lectures...">
+			</div>
+
+			<input class="button-primary" type="submit" value="Add">
+		</form>
+	</div>
+	<div class="listCourses container fullPage">
+		<h1>List</h1>
+		<div class="list-container container">
+			<button class="list">List</button>
+		</div>
+	</div>
+
+	<div class="modal container">
+		<p class="content">
+			<span class="modalContent">Goes here the content...</span>
+		</p>
+	</div>
+
+	<div class="update-modal">
+		<span class="close">X</span>
+		<input type="number" name="endNumber" id="endNumber" placeholder="enter the last Number of the video you watched...">
+		<button class="submitUpdate">Update</button>
+	</div>
+
+	<div class="container cardsContainer">
+	</div>
+
+	<script src="./js/index.js"></script>
+</body>
+</html>
